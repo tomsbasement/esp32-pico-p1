@@ -13,6 +13,11 @@ Here is the links to buy the required material :
 
 > Note : I will maybe work on a variant using ESP32 C6 as it is more future proof (supports WiFi 6) and generally cheaper
 
+# Wiring
+![RJ12-pins](https://github.com/tomsbasement/esp32-pico-p1/assets/108102/e30a5d2b-0883-4c2d-89bc-5bb175bf30bc)
+
+<img src="https://github.com/tomsbasement/esp32-pico-p1/assets/108102/4ab4b4a1-7a0a-4ccf-bf76-ba80f823f1ae" alt="ESP32-C3 wiring" width="410"/>
+
 # Instructions
 This project uses esphome-p1mini project as external component for esphome : https://github.com/Beaky2000/esphome-p1mini
 
