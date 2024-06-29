@@ -27,7 +27,7 @@ wifi:
   # Enable fallback hotspot (captive portal) in case wifi connection fails
   ap:
     ssid: "Compteur-Ores Fallback Hotspot"
-    password: "xxxxxxxxx"
+    password: "CHANGE_ME"
 
 captive_portal:
 
@@ -39,10 +39,11 @@ logger:
 # Enable Home Assistant API
 api:
   encryption:
-    key: "xxxxxxxxx+w7fUTNU3KiiOjCMk="
+    key: "CHANGE_ME"
 
 ota:
-  password: "xxxxxxxxx"
+  - platform: esphome
+    password: "CHANGE_ME"
 
 external_components:
   - source: github://Beaky2000/esphome-p1mini@main
