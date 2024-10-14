@@ -13,6 +13,10 @@ Here is the links to buy the required material :
 
 > Note : I will maybe work on a variant using ESP32 C6 as it is more future proof (supports WiFi 6) and generally cheaper
 
+You can find the full video guide here :
+
+[![ESP32 Pico for Belgian electricity counter](https://img.youtube.com/vi/KM2kO0HSWFs/hqdefault.jpg)](https://youtu.be/KM2kO0HSWFs)
+
 # Wiring
 ![RJ12-pins](https://github.com/tomsbasement/esp32-pico-p1/assets/108102/e30a5d2b-0883-4c2d-89bc-5bb175bf30bc)
 
