@@ -55,14 +55,14 @@ switch:
     pin: GPIO8
 
 light:
-  - platform: neopixelbus
-    type: RGB
-    variant: WS2812
+  - platform: esp32_rmt_led_strip
+    rgb_order: RGB
+    chipset: WS2812
     pin: GPIO7
     num_leds: 1
-    default_transition_length: 0s
     name: "status_led"
     id: status_led
+    default_transition_length: 0s
 
 binary_sensor:
   - platform: gpio
