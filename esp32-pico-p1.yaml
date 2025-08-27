@@ -9,7 +9,7 @@ esp32:
   board: lolin_c3_mini
   variant: esp32c3
   framework:
-    type: esp-idf
+    type: arduino
 
 wifi:
   ssid: !secret wifi_ssid
