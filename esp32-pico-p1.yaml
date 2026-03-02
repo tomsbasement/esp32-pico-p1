@@ -183,6 +183,12 @@ sensor:
 #  name: "Cumulative Reactive Export"
 #  unit_of_measurement: kvarh
 #  accuracy_decimals: 3
+#- platform: p1_mini
+#  p1_mini_id: p1_mini_1
+#  obis_code: "1.6.0"
+#  name: "Positive active maximum demand (A+) total"
+#  unit_of_measurement: kW
+#  accuracy_decimals: 3
 - platform: p1_mini
   p1_mini_id: p1_mini_1
   obis_code: "1.7.0"
